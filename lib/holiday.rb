@@ -43,5 +43,6 @@ def all_holidays_with_bbq(holiday_hash)
     bbq_array = []
     if supply == "BBQ"
     bbq_array << holiday
+  end
   bbq_array
 end
