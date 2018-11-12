@@ -43,7 +43,6 @@ def all_holidays_with_bbq(holiday_hash)
     holiday.each do |holiday, supply|
       holiday.keep_if { |supply| supply.include?("BBQ")}
         bbq_array << holiday
-      end
     end
   end
   bbq_array
